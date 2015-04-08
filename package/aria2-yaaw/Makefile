@@ -12,7 +12,7 @@ PKG_VERSION:=1.0
 PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/binux/yaaw.git
+PKG_SOURCE_URL:=https://github.com/liwentao0705/yaaw
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE_VERSION:=HEAD
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_PROTO).tar.gz
@@ -25,7 +25,7 @@ define Package/yaaw-aria2
   SUBMENU:=Download Manager
   DEPENDS:=
   TITLE:=An interface to interact with aria2
-  URL:=https://github.com/binux/yaaw
+  URL:=https://github.com/liwentao0705/yaaw
   PKGARCH:=all
 endef
 
